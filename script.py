@@ -31,7 +31,7 @@ if __name__ == "__main__":
     driver.get("https://www.bluestcks.com/")
 
     # Sleeps for 10 seconds
-    time.sleep(12)
+    time.sleep(8)
 
     # Gets all the logs from performance in Chrome
     logs = driver.get_log("network")
